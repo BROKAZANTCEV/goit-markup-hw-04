@@ -207,6 +207,13 @@ main {
     display: flex;
     gap: 24px;
 }
+.benef-svg {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+}
 .benef-item {
     flex-basis: calc((100% - 72px) / 4);
 }
