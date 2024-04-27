@@ -134,6 +134,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-link:hover,
 .adres-link:focus {
@@ -223,9 +224,6 @@ main {
 .benef-item {
     flex-basis: calc((100% - 72px) / 4);
 }
-.item-p {
-    margin-bottom: 8px;
-}
 .item-title {
     font-weight: 500;
     font-size: 20px;
@@ -296,6 +294,10 @@ team-soc {
     display: flex;
     gap: 24px;
     justify-content: center;
+}
+.svg-link:hover,
+.svg-link:focus {
+    background-color: #404bbf;
 }
 
 /* ======= PORTFOLLIO SECTION ======= */
